@@ -91,13 +91,6 @@ else if(iempty()==1)
 
 return 1;
 }
-
-void clear()
-{
-pos.head=pos.tail=-1;
-cout<<"QUEUE CLEAR";
-}
-
 void view()
 {
 if(iempty()==0)
